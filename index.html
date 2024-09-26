@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio di ChatGPT</title>
+    <script>
+        document.getElementById("tara").onclick = function () {
+        location.href = "index.html";
+    };
+    </script>
+    <style>
+
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+            text-align: center;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+section {
+    padding: 20px;
+}
+
+#projects ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#projects li {
+    margin-bottom: 10px;
+}
+
+        #cv .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+}
+
+img{
+    max-width: 750px;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-github {
+  background: #000000;
+  color: white;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+p{
+    font-size: 18pt;
+}
+
+p1{
+    font-size: 20pt;
+}
+
+    </style>
+</head>
+    <header>
+        <h1>Il Portfolio di Filippo Di Nunzio</h1>
+        <p>Beginner Developer | 3D Artist</p>
+    </header>
+<body>
+
+
+    <section id="about">
+        <h2>Chi Sono</h2>
+        <p>Sono Filippo, ho 26 anni e sono un beginner developer in Python.<br> Sono capace di creare applicazioni Flask. <br>Quello che voglio fare in futuro è creare modelli 3d e video in 3d.</p>
+    </section>
+
+    <section id="projects">
+        <h2>I Miei Progetti</h2>
+        <ul>
+            <li>
+                <p1>Progetto 1: Applicazione flask di una bacheca eventi per comprare i biglietti </p1>
+                <br>
+                <img src="static/agenzia.png" alt="Agenzia Eventi">
+            </li>
+            <li>
+                <p1>Progetto 2: Applicazione flask di un menu per ordinare da mangiare in un ristorante</p1>
+                <br>
+                <img src="static/ristorante.png" alt="Ristorante">
+            </li>
+            <li>
+                <p1>Progetto 3: Scena 3D di un fiume in Cina con delle case sui lati</p1>
+                <br>
+                <img src="static/River china.jpg" alt="fiume cina">
+            </li>
+            <li>
+                <p1>Progetto 4: Ambientazione di una navicella spaziale</p1>
+                <br>
+                <img src="static/nave spaziale.png" alt="nave">
+            </li>
+            <!-- Altri progetti -->
+        </ul>
+    </section>
+    <section id="cv">
+        <h2>Scarica il Curriculum</h2>
+        <a href="/download-cv" class="btn" download="resume.pdf">Scarica il PDF</a>
+    </section>
+
+    <section id="contacts">
+        <h2>Contatti</h2>
+        <p>
+            <a href="https://www.linkedin.com/in/filippodinunzio/" class="fa fa-linkedin">LinkedIn</a> |
+            <a href="https://github.com/Filoit" class="fa fa-github">GitHub</a>
+        </p>
+    </section>
+
+    <section id="calendar">
+        <h2>Prenota una Call</h2>
+        <iframe src="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ0g1pvRJM2G45342Da7JUiEAKCAgugbwDyecaN3Gj3sFn0N6VvioqXk6Ylv5H60bc7iP1-fsUYO" style="border: 0" width="1000" height="800" frameborder="0" scrolling="no"></iframe>
+    </section>
+
+
+</body>
+    <footer>
+        <p>&copy; 2024 Tutti i diritti sono riservati</p>
+    </footer>
+</html>
